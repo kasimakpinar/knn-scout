@@ -14,14 +14,14 @@ Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statisti
 [whoscored.com](https://www.whoscored.com/) provides a variety of in-game statistics for players. Average stats for players for a season can be found on team pages. Following stats has been used for evaluation:
 
 **Summary Stats**
-**games_played:** Number of matches played (Matches which the player has been substituted on count as 1).
-**yellow_cards:** Number of yellow cards accumulated.
-**red_cards:** Number of red cards accumulated.
-**man_of_the_match:** Number of matches the player has been determined as the Man of the Match.
-**aerials_won:** Aerial duels won per game.
+- **games_played:** Number of matches played (Matches which the player has been substituted on count as 1).
+- **yellow_cards:** Number of yellow cards accumulated.
+- **red_cards:** Number of red cards accumulated.
+- **man_of_the_match:** Number of matches the player has been determined as the Man of the Match.
+- **aerials_won:** Aerial duels won per game.
 
 **Defensive Stats**
-**tackles:**
+- **tackles:**
 **interceptions:**
 **fouls:**
 **offsides_won:**
