@@ -16,7 +16,7 @@ Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statisti
   - [2.1 Extracting Data](https://github.com/kasimakpinar/knn-scout#21-extracting-data)
   - [2.2 Transforming Data](https://github.com/kasimakpinar/knn-scout#22-transforming-data)
   - [2.3 Applying Algorithm](https://github.com/kasimakpinar/knn-scout#23-applying-algorithm)
-- [3. Results](https://github.com/kasimakpinar/knn-scout#3-results)
+- [3. Results](#3-results)
 - [4. Resources](https://github.com/kasimakpinar/knn-scout#4-resources)
 
 ## 1. Data
