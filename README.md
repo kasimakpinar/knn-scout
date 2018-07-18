@@ -1,6 +1,6 @@
 # KNN Scout
 
-##1. Introduction
+## 1. Introduction
 
 Recently, Real Madrid sold Cristiano Ronaldo to Juventus. Who should they sign for a replacement?
 
@@ -10,16 +10,16 @@ In this project, we will use machine learning to try to find football players wh
 
 Thanks to whoscored.com, we have detailed stats for players. This project is a good example of using KNN Algorithm.
 
-##2. Data
+## 2. Data
 
-##3. Methods
+## 3. Methods
 
-###3.1. Getting Data
+### 3.1. Getting Data
 
-###3.2. Transforming Data
+### 3.2. Transforming Data
 
-###3.3. Applying Algorithm
+### 3.3. Applying Algorithm
 
-##4. Results
+## 4. Results
 
-##5. Resources
+## 5. Resources
