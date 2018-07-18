@@ -11,13 +11,13 @@ In this project, we will use machine learning to try to find football players wh
 Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statistics for players. This project is a good example of using KNN Algorithm.
 
 ## Table of Contents
-- [1. Data](https://github.com/kasimakpinar/knn-scout#1-data)
-- [2. Methods](https://github.com/kasimakpinar/knn-scout#2-methods)
-  - [2.1 Extracting Data](https://github.com/kasimakpinar/knn-scout#21-extracting-data)
-  - [2.2 Transforming Data](https://github.com/kasimakpinar/knn-scout#22-transforming-data)
-  - [2.3 Applying Algorithm](https://github.com/kasimakpinar/knn-scout#23-applying-algorithm)
+- [1. Data](#1-data)
+- [2. Methods](#2-methods)
+  - [2.1 Extracting Data](#21-extracting-data)
+  - [2.2 Transforming Data](#22-transforming-data)
+  - [2.3 Applying Algorithm](#23-applying-algorithm)
 - [3. Results](#3-results)
-- [4. Resources](https://github.com/kasimakpinar/knn-scout#4-resources)
+- [4. Resources](#4-resources)
 
 ## 1. Data
 [whoscored.com](https://www.whoscored.com/) provides a variety of in-game statistics for players. Average stats for players for a season can be found on team pages ([example](https://www.whoscored.com/Teams/133/Show/Turkey-Besiktas)). Following stats has been used for evaluation:
@@ -99,6 +99,26 @@ Passing player data and base player to the algorithm is enough, scikit-learn doe
 
 ## 3. Results
 
+Results are promising since it doesn't find only the players with high average rating when we look for different famous players. For Cristiano Ronaldo, the players in the result are most likely powerful strikers similar to Ronaldo, like Harry Kane, Ciro Immobile and Mauro Icardi. For Lionel Messi, the players in the result are most likely dribblers who plays with the ball more than average during the game similar to Messi, like Mohamed Salah and Paulo Dybala.
 
+More than half of the players found are usually non-famous players. Since we use an unsupervised learning, it's hard to validate results for those players because we can't watch them playing for Real Madrid or Barcelona. Better to watch their performance closer in next season.
+
+We should keep in mind that it doesn't find best players similar to given base player. When we look for a base player with poor stats, most probably the result will also be a list of players with poor stats.
 
 ## 4. Resources
+
+- WhoScored.com - Revolutionising Football Statistics
+  - https://www.whoscored.com/
+
+- pandas - Python Data Analysis Library
+  - https://pandas.pydata.org/
+
+- Selenium WebDriver
+  - https://www.seleniumhq.org/projects/webdriver/
+  - http://selenium-python.readthedocs.io/api.html
+
+- ChromeDriver - WebDriver for Chrome
+  - http://chromedriver.chromium.org/downloads
+  
+- scikit-learn - Nearest Neighbors
+  - http://scikit-learn.org/stable/modules/neighbors.html
