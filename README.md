@@ -63,15 +63,28 @@ Player stats has been acquired from following leagues:
 
 ## 3. Methods
 
-### 3.1. Collecting Data
+### 3.1. Extracting Data
 (Notebook: knn_scout_crawler.ipynb)
 
+Selenium WebDriver API has been used to navigate across team pages to get player stats automatically.
+
+In order to reach player stats in an automated way, for all given leagues, league page url has been navigated to collect team urls from league table. Then all team urls has been navigated in a loop and each team page navigated 4 times for 4 different stat types (summary, defensive, offensive, passing).  
 
 ### 3.2. Transforming Data
 (Notebook: knn_scout_transform.ipynb)
 
+First, irrelevant attributes like player name, country, age etc. has been dropped from data. Also, goalkeepers removed from data since most of the stats are related to outfield players.
+
+Most important problem is that some players are being transferred between teams during mid-season transfer window. Thus, those players will be added to data 2 times with different stats. Stats for those players should be aggregated accordigly.
+
+Another problem is, some attributes are per game averages while some attributes are total number of occurrences. Those total numbers should be divided by number of games played to acquire per game numbers.
+
+Third problem to solve is, some attributes tend to have higher numbers whilst some attributes tend to have lower. For example, passing is very likely to occur in a game and players most probably will have high number of passes per game. But offside is rarely to occur and players will have a low number of offsides per game. This will cause a bias and algorithm will evalute players by passes per game more than other attributes. Simply dividing all numbers in a column by maximum number in that column will solve the problem. All values will be something between 0 and 1.
+
 ### 3.3. Applying Algorithm
 (Notebook: Scout.ipynb)
+
+
 
 ## 4. Results
 
