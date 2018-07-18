@@ -11,10 +11,13 @@ In this project, we will use machine learning to try to find football players wh
 Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statistics for players. This project is a good example of using KNN Algorithm.
 
 ## Table of Contents
-[1. Data](1-data)
-[2. Methods](2-methods)
-[3. Results](3-results)
-[4. Resources](4-resources)
+- [1. Data](https://github.com/kasimakpinar/knn-scout#1-data)
+- [2. Methods](https://github.com/kasimakpinar/knn-scout#2-methods)
+  - [2.1 Extracting Data](https://github.com/kasimakpinar/knn-scout#21-extracting-data)
+  - [2.2 Transforming Data](https://github.com/kasimakpinar/knn-scout#22-transforming-data)
+  - [2.3 Applying Algorithm](https://github.com/kasimakpinar/knn-scout#23-applying-algorithm)
+- [3. Results](https://github.com/kasimakpinar/knn-scout#3-results)
+- [4. Resources](https://github.com/kasimakpinar/knn-scout#4-resources)
 
 ## 1. Data
 [whoscored.com](https://www.whoscored.com/) provides a variety of in-game statistics for players. Average stats for players for a season can be found on team pages ([example](https://www.whoscored.com/Teams/133/Show/Turkey-Besiktas)). Following stats has been used for evaluation:
