@@ -11,7 +11,7 @@ In this project, we will use machine learning to try to find football players wh
 Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statistics for players. This project is a good example of using KNN Algorithm.
 
 ## 2. Data
-[whoscored.com](https://www.whoscored.com/) provides a variety of in-game statistics for players. Average stats for players for a season can be found on team pages. Following stats has been used for evaluation:
+[whoscored.com](https://www.whoscored.com/) provides a variety of in-game statistics for players. Average stats for players for a season can be found on team pages ([example](https://www.whoscored.com/Teams/133/Show/Turkey-Besiktas)). Following stats has been used for evaluation:
 
 **Summary Stats**
 - **games_played:** Number of games played (Matches which the player has been substituted on also count as 1).
@@ -63,11 +63,15 @@ Player stats has been acquired from following leagues:
 
 ## 3. Methods
 
-### 3.1. Getting Data
+### 3.1. Collecting Data
+(Notebook: knn_scout_crawler.ipynb)
+
 
 ### 3.2. Transforming Data
+(Notebook: knn_scout_transform.ipynb)
 
 ### 3.3. Applying Algorithm
+(Notebook: Scout.ipynb)
 
 ## 4. Results
 
