@@ -8,7 +8,7 @@ Well, data science shows that the best option is to buy **Harry Kane** from Tott
 
 In this project, we will use machine learning to try to find football players who has similar playing style with a given base player.
 
-Thanks to whoscored.com, we have detailed stats for players. This project is a good example of using KNN Algorithm.
+Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed stats for players. This project is a good example of using KNN Algorithm.
 
 ## 2. Data
 
