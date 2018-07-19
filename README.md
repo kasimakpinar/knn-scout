@@ -39,7 +39,7 @@ Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statisti
 - **blocks:** Outfielder blocks per game.
 - **own_goals:** Total own goals.
 
-**Offensive Stats:**
+**Offensive Stats**
 - **goals**: Total goals scored.
 - **assists**: Total assists.
 - **shots**: Shots per game.
@@ -50,7 +50,7 @@ Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statisti
 - **dispossessed**: Dispossessed per game.
 - **bad_controls**: Bad controls per game.
 
-**Passing Stats:**
+**Passing Stats**
 - **passes**: Passes per game.
 - **pass_accuracy**: Pass success percentage.
 - **crosses**: Crosses per game.
