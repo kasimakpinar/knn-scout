@@ -95,7 +95,7 @@ Third problem to solve is, some attributes tend to have higher numbers whilst so
 
 Nearest Neighbors algorithm in scikit-learn has been used to find players who has similar playing style with a given base player. The algorithm simply calculates distances between a new point (in this case, base player) and a given set of points (all players except base player) and return k number (in this case, 10) of closest points. It's like calculating closest points among scattered points in a 2-d plane for a specific point, but in this case it's an n-dimensional space (n is number of attributes).
 
-Passing player data and base player to the algorithm is enough, scikit-learn does the rest of the job.  
+Passing player data and base player to the algorithm is enough, scikit-learn library does the rest of the job.  
 
 ## 3. Results
 
