@@ -57,14 +57,14 @@ Thanks to [whoscored.com](https://www.whoscored.com/), we have detailed statisti
 - **long_balls**: Long balls per game.
 - **through_balls**: Through balls per game.
 
-Player stats has been acquired from following leagues:
+Player stats has been acquired from teams in following leagues:
 - Argentina Superliga (2017-2018)
 - Brazil Série A (2018) (in season, Jul 2018)
 - England Premier League (2017-2018)
 - France Ligue 1 (2017-2018)
 - Germany Bundesliga (2017-2018)
 - Italy Serie A (2017-2018)
-- Netherlads Eredivisie (2017-2018)
+- Netherlands Eredivisie (2017-2018)
 - Portugal Liga NOS (2017-2018)
 - Russia premier League (2017-2018)
 - Spain La Liga (2017-2018)
